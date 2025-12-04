@@ -366,4 +366,13 @@ Use props when:
 
 ---
 
-✅ END OF PROPS SUMMARY
+### ✅ Example
+```jsx
+// Parent
+<User name="Abdul" />
+
+// Child
+function User({ name }) {
+  return <h1>{name}</h1>;
+}
+
